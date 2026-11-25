@@ -5,14 +5,14 @@ int main() {
     int C[2][5] = {0}; 
     int i, j, k;
 
-    printf("請輸入矩陣 A 的數值 (2x4，共 8 個整數)：\n");
+    printf("請輸入矩陣A的數值 (2x4，共8個整數)：\n");
     for (i = 0; i < 2; i++) {
         for (j = 0; j < 4; j++) {
             scanf("%d", &A[i][j]);
         }
     }
 
-    printf("\n請輸入矩陣 B 的數值 (4x5，共 20 個整數)：\n");
+    printf("請輸入矩陣 B的數值 (4x5，共20個整數)：\n");
     for (i = 0; i < 4; i++) {
         for (j = 0; j < 5; j++) {
             scanf("%d", &B[i][j]);
